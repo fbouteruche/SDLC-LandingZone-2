@@ -29,7 +29,7 @@
     "@aws-cdk/core": "1.66.0",
     "@aws-cdk/pipelines": "1.66.0",
     "aws-bootstrap-kit": "0.2.3",
-    "cdk-sso-sync": "0.0.1",
+    "cdk-sso-sync": "file:pkg/cdk-sso-sync-0.0.1.tgz",
     "source-map-support": "^0.5.16"
   }
 }
