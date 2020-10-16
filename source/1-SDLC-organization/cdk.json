@@ -5,9 +5,9 @@
     "aws-cdk:enableDiffNoFail": "true",
     "@aws-cdk/core:stackRelativeExports": "true",
     "@aws-cdk/core:newStyleStackSynthesis": true,
-    "github_alias": "<YOUR GITHUB ALIAS>",
-    "github_repo_name": "<YOUR GITHUB REPO NAME>",
-    "github_repo_branch": "<YOUR GITHUB BRANCH NAME>",
-    "email": "<YOUR ROOT EMAIL>"
+    "github_alias": "fbouteruche",
+    "github_repo_name": "SDLC-LandingZone-2",
+    "github_repo_branch": "main",
+    "email": "bouteru@amazon.com"
   }
 }
