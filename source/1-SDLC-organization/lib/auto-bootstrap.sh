@@ -22,7 +22,7 @@ for ACCOUNT in $ACCOUNTS; do
     # Bootstrap
     case $ACCOUNT_NAME in
         CICD)
-            npm run cdk bootstrap -- --profile ${ACCOUNT_NAME}
+            npm run cdk bootstrap -- --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess  --profile ${ACCOUNT_NAME}
             ;; 
             Dev|Staging|Prod)
             npm run cdk bootstrap -- --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess --trust ${CICD_ACCOUNT_ID} aws://${ACCOUNT_ID}/eu-west-1 --profile ${ACCOUNT_NAME}
